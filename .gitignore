@@ -29,4 +29,6 @@ hs_err_pid*
 configuration/*
 # Include the config.ini file from the configuration folder.
 !configuration/config.ini
+
+# Ignore the jar from the code folder.
 code/*.jar
