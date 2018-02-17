@@ -20,7 +20,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+# Ignores specific to this project.
+
+# Ignore all log files.
 *.log
+
+# Ignore files and folders inside the configuration file BUT ...
 configuration/*
+# Include the config.ini file from the configuration folder.
 !configuration/config.ini
 code/*.jar
